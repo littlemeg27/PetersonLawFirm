@@ -236,10 +236,10 @@ body.sub #TestimonialZone {
 
 #BottomZone {
 	background-color: #106cb9; /* $primary */
-	background-image: -webkit-linear-gradient #106cb9;
-	background-image: -moz-linear-gradient #106cb9;
-	background-image: -o-linear-gradient #106cb9;
-	background-image: linear-gradient #106cb9;
+	background-image: -webkit-linear-gradient(#FFFFFF,#106cb9);
+	background-image: -moz-linear-gradient(#FFFFFF,#106cb9);
+	background-image: -o-linear-gradient(#FFFFFF,#106cb9);
+	background-image: linear-gradient(#FFFFFF,#106cb9);
 	padding: 20px 0 20px 2%;
 }
 
