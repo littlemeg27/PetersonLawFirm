@@ -127,7 +127,8 @@ form *,form *:before,form *:after {
 	clear: both;
 }
 
-#TopArea {
+#TopArea 
+{
 }
 
 #StickyZone { /* Moving header */
@@ -137,10 +138,10 @@ form *,form *:before,form *:after {
 	width: 100%;
 	top: -500px;
 	z-index: 50;
-	background-image: -webkit-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: -moz-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: -o-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: linear-gradient(to bottom,#FFFFFF,#E5D9C1);
+	background-image: -webkit-linear-gradient(top,#FFFFFF,#106cb9);
+	background-image: -moz-linear-gradient(top,#FFFFFF,#106cb9);
+	background-image: -o-linear-gradient(top,#FFFFFF,#106cb9);
+	background-image: linear-gradient(to bottom,#FFFFFF,#106cb9);
 	-webkit-transition: 1.5s ease;
 	-moz-transition: 1.5s ease;
 	-o-transition: 1.5s ease;
@@ -165,7 +166,7 @@ body.cms-admin #StickyZone {
 	background-image: -o-linear-gradient(top, #106cb9, #E5D9C1);
 	background-image: linear-gradient(to bottom,#106cb9,#E5D9C1);
 }
-//#D4C3A2 #E5D9C1
+
 #NavZone {
 	width: 100%;
 	position: relative;
@@ -188,7 +189,7 @@ body.sub #ImageZone {
 
 #CTAZone { 
 	min-height: 152px;
-	background-color: #CBCBCB; /* lighten($secondary,72%) */
+	background-color: #E5D9C1; /* lighten($secondary,72%) */
 	background-image: -webkit-linear-gradient(top,#FFFFFF,#E5D9C1);
 	background-image: -moz-linear-gradient(top,#FFFFFF,#E5D9C1);
 	background-image: -o-linear-gradient(top,#FFFFFF,#E5D9C1);
@@ -234,11 +235,11 @@ body.sub #TestimonialZone {
 }
 
 #BottomZone {
-	background-color: #5F5740; /* $primary */
-	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
-	background-image: -moz-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
-	background-image: -o-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
-	background-image: linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
+	background-color: #E5D9C1; /* $primary */
+	background-image: -webkit-linear-gradient(top,#FFFFFF,#E5D9C1);
+	background-image: -moz-linear-gradient(top,#FFFFFF,#E5D9C1);
+	background-image: -o-linear-gradient(top,#FFFFFF,#E5D9C1);
+	background-image: linear-gradient(to bottom,#FFFFFF,#E5D9C1);
 	padding: 20px 0 20px 2%;
 }
 
