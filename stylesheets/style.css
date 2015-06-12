@@ -235,11 +235,11 @@ body.sub #TestimonialZone {
 }
 
 #BottomZone {
-	background-color: #E5D9C1; /* $primary */
-	background-image: -webkit-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: -moz-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: -o-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: linear-gradient(to bottom,#FFFFFF,#E5D9C1);
+	background-color: #106cb9; /* $primary */
+	background-image: -webkit-linear-gradient(top,#FFFFFF,#106cb9);
+	background-image: -moz-linear-gradient(top,#FFFFFF,#106cb9);
+	background-image: -o-linear-gradient(top,#FFFFFF,#106cb9);
+	background-image: linear-gradient(to bottom,#FFFFFF,#106cb9);
 	padding: 20px 0 20px 2%;
 }
 
