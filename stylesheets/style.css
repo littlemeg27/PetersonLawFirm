@@ -178,7 +178,7 @@ body.cms-admin #StickyZone {
 
 #ImageZone {
 	width: 100%;
-	background-image: url(/images/Slide-Bg-1.jpg);
+	background-image: url(/images/cityLandscape.jpg);
 	background-position: center;
 	border-bottom: 3px solid #E5D9C1; /* $accent1 */
 }
