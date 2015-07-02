@@ -2,7 +2,7 @@ body {
 	background: #ffffff;
 	margin: 0px;
 	font-family: Roboto, Segoe UI, Helvetica, sans-serif;
-	background-image: url(/images/Bg-Main.jpg);
+	background-image: url(/images/cityLandscape.jpg);
 }
 
 body em {
@@ -75,10 +75,10 @@ a.phonelink {
 	color: #FFFFFF;
 }
 
-main {
+main { /* Main background */
 	padding-bottom: 20px;
 	display: block;
-	background-color: #E5D9C1; /* $accent1 */
+	background-color: #FFFFFF; /* $accent1 */
 }
 
 .main {
