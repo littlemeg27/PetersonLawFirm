@@ -1219,7 +1219,7 @@ html.no-generatedcontent .side h2 {
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0 0 8px;
-	color: #DDDCDB; /* adjust($primary,80%,-90%,0%) */
+	color: #fff8f0; /* adjust($primary,80%,-90%,0%) */
 }
 
 .contact-form input, .contact-form textarea {
