@@ -190,7 +190,7 @@ body.sub #ImageZone {
 #CTAZone { 
 	min-height: 152px;
 	background-color: #E5D9C1; /* lighten($secondary,72%) */
-	background-image: -webkit-linear-gradient(top,#FFFFFF,#E5D9C1);
+	background-image: -webkit-linear-gradient(top,#FFFFFF,#E5D9C1); /* #E5D9C1 Brown color */ 
 	background-image: -moz-linear-gradient(top,#FFFFFF,#E5D9C1);
 	background-image: -o-linear-gradient(top,#FFFFFF,#E5D9C1);
 	background-image: linear-gradient(to bottom,#FFFFFF,#E5D9C1);
@@ -1079,11 +1079,11 @@ html.no-lastchild .cta-list ul li .hover span {
 
 /* Side Headers */
 .side h2 {
-	background-color: #5F5740; /* $primary */
-	background-image: -webkit-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	background-image: -moz-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	background-image: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	background-image: linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
+	background-image: -webkit-radial-gradient(top,#DEDEDE, #828282);
+	background-image: -moz-radial-gradient(top, #DEDEDE, #828282);
+	background-image: -o-radial-gradient(top, #DEDEDE, #828282);
+	background-image: radial-gradient(to bottom,#DEDEDE,#828282);
+	background-color: #DEDEDE; /* $primary */
 	border-bottom: 9px solid #464646; /* $secondary */
 	padding: 10px 10% 0px 10%;
 	margin: 0 0 10px;
@@ -1205,6 +1205,12 @@ html.no-generatedcontent .side h2 {
 	background-image: -moz-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
 	background-image: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
 	background-image: linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
+	
+	/* 	background-image: -webkit-radial-gradient(top,#DEDEDE, #828282);
+	background-image: -moz-radial-gradient(top, #DEDEDE, #828282);
+	background-image: -o-radial-gradient(top, #DEDEDE, #828282);
+	background-image: radial-gradient(to bottom,#DEDEDE,#828282);
+	background-color: #DEDEDE; /* $primary */ */
 }
 
 .contact-form {
@@ -1223,8 +1229,8 @@ html.no-generatedcontent .side h2 {
 }
 
 .contact-form input, .contact-form textarea {
-	background-color: #F2ECE0; /* lighten($accent1,50%) */
-	background-image: -webkit-linear-gradient(bottom,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
+	background-color: #FFFFFF; /* lighten($accent1,50%) */
+	background-image: -webkit-linear-gradient(#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
 	background-image: -moz-linear-gradient(bottom,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
 	background-image: -o-linear-gradient(bottom,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
 	background-image: linear-gradient(to top,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
