@@ -1105,7 +1105,7 @@ html.no-generatedcontent .side h2 {
 	zoom: 1;
 }
 
-.side h2 a {
+.side h2 a { /* Contact us text */
 	font-family: 'Playfair Display';
 	font-size: 24px;
 	color: #FFFFFF;
@@ -1115,10 +1115,10 @@ html.no-generatedcontent .side h2 {
 	margin-bottom: 0px;
 }
 
-.side h2 span {
+.side h2 span { /* Get started today text */ 
 	font-family: Oxygen;
 	font-size: 16px;
-	color: #E5D9C1; /* $accent1 */
+	color: #FFFFFF; /* $accent1 */
 	white-space: nowrap;
 	margin: 0px 0px 5px;
 	display: inline-block;
