@@ -1105,20 +1105,20 @@ html.no-generatedcontent .side h2 {
 	zoom: 1;
 }
 
-.side h2 a { /* Contact us text */
+.side h2 a { /* Estate Planning header */
 	font-family: 'Playfair Display';
 	font-size: 24px;
-	color: #4F4F4F;
+	color: #0A0A0A;
 	font-weight: normal;
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 0px;
 }
 
-.side h2 span { /* Get started today text */ 
+.side h2 span { /* Get started */ 
 	font-family: Oxygen;
 	font-size: 16px;
-	color: #4F4F4F; /* $accent1 */
+	color: #0A0A0A; /* $accent1 */
 	white-space: nowrap;
 	margin: 0px 0px 5px;
 	display: inline-block;
