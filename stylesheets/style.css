@@ -827,7 +827,7 @@ html.no-csstransitions .cta-list ul li:hover .top {
 }
 
 .cta-list ul li h2 {
-	color: #E5D9C1;
+	color: #F2CB4F;
 	font-size: 18px;
 	line-height: 1.13em;
 	text-transform: uppercase;
@@ -848,10 +848,10 @@ html.no-csstransitions .cta-list ul li:hover .top {
 	top: 0;
 	left: 0;
 	height: 130px;
-	background-image: -webkit-linear-gradient(top,#2A2A2A,#4E4A3C);
-	background-image: -moz-linear-gradient(top,#2A2A2A,#4E4A3C);
-	background-image: -o-linear-gradient(top,#2A2A2A,#4E4A3C);
-	background-image: linear-gradient(to bottom,#2A2A2A,#4E4A3C);
+	background-image: -webkit-linear-gradient(top,#2A2A2A,#DEDEDE);
+	background-image: -moz-linear-gradient(top,#2A2A2A,#DEDEDE);
+	background-image: -o-linear-gradient(top,#2A2A2A,#DEDEDE);
+	background-image: linear-gradient(to bottom,#2A2A2A,#DEDEDE);
 }
 
 body.sub .cta-list ul li .hover {
@@ -870,7 +870,7 @@ body.sub .cta-list ul li p {
 }
 
 .cta-list ul li .hover span {
-	background-color: #E5D9C1; /* $accent1 */
+	background-color: #F2CB4F; /* $accent1 */
 	width: 80%;
 	color: #2A2A2A;
 	font-size: 14px;
@@ -2358,5 +2358,5 @@ html.no-canvas .main {
 /* Dark Grey color #828282 */
 /* Blackish border color #0A0A0A */
 /* Light Yellow color #FBEEC0 */
-/* Light Yellow color #F2CB4F */
+/* Darker Yellow color #F2CB4F */
 
