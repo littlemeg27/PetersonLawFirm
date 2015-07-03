@@ -1078,13 +1078,13 @@ html.no-lastchild .cta-list ul li .hover span {
 /* Content CTA Styles *//* End Content CTA Styles */
 
 /* Side Headers */
-.side h2 {
+.side h2 { /* Contact form header */ 
 	background-image: -webkit-radial-gradient(top,#DEDEDE, #828282);
 	background-image: -moz-radial-gradient(top, #DEDEDE, #828282);
 	background-image: -o-radial-gradient(top, #DEDEDE, #828282);
 	background-image: radial-gradient(to bottom,#DEDEDE,#828282);
 	background-color: #DEDEDE; /* $primary */
-	border-bottom: 9px solid #464646; /* $secondary */
+	border-bottom: 9px solid #0A0A0A; /* $secondary */
 	padding: 10px 10% 0px 10%;
 	margin: 0 0 10px;
 	font-family: 'Playfair Display';
