@@ -1225,15 +1225,15 @@ html.no-generatedcontent .side h2 {
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0 0 8px;
-	color: #fff8f0; /* adjust($primary,80%,-90%,0%) */
+	color: #fff8f0;
 }
 
 .contact-form input, .contact-form textarea {
-	background-color: #FFFFFF; /* lighten($accent1,50%) */
-	background-image: #FFFFFF; /* darken($accent1,1%),lighten($accent1,100%) */
-	background-image: #FFFFFF; /* darken($accent1,1%),lighten($accent1,100%) */
-	background-image: #FFFFFF; /* darken($accent1,1%),lighten($accent1,100%) */
-	background-image: #FFFFFF; /* darken($accent1,1%),lighten($accent1,100%) */
+	background-color: #FFFFFF;
+	background-image: #FFFFFF;
+	background-image: #FFFFFF;
+	background-image: #FFFFFF;
+	background-image: #FFFFFF;
 	box-shadow: inset 1px 1px 3px rgba(0,0,0,.32);
 	border: none;
 	width: 100%;
@@ -1271,7 +1271,7 @@ html.no-boxsizing .contact-form textarea {
 }
 
 .contact-form a.button {
-	background-color: #464646; /* $secondary */
+	background-color: #0A0A0A; /* $secondary */
 	display: block;
 	padding: 10px 0 10px 10%;
 	box-shadow: 1px 1px 3px rgba(0,0,0,.45);
@@ -1292,7 +1292,7 @@ html.no-boxsizing .contact-form textarea {
 
 .contact-form a.button span {
 	width: 20%;
-	background-color: #5F5740; /* $primary */
+	background-color: #828282; /* $primary */
 	display: inline-block;
 	position: absolute;
 	right: 0;
