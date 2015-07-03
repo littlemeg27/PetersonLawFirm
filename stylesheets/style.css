@@ -1230,10 +1230,10 @@ html.no-generatedcontent .side h2 {
 
 .contact-form input, .contact-form textarea {
 	background-color: #FFFFFF; /* lighten($accent1,50%) */
-	background-image: -webkit-linear-gradient(#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
-	background-image: -moz-linear-gradient(bottom,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
-	background-image: -o-linear-gradient(bottom,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
-	background-image: linear-gradient(to top,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
+	background-image: #FFFFFF; /* darken($accent1,1%),lighten($accent1,100%) */
+	background-image: #FFFFFF; /* darken($accent1,1%),lighten($accent1,100%) */
+	background-image: #FFFFFF; /* darken($accent1,1%),lighten($accent1,100%) */
+	background-image: #FFFFFF; /* darken($accent1,1%),lighten($accent1,100%) */
 	box-shadow: inset 1px 1px 3px rgba(0,0,0,.32);
 	border: none;
 	width: 100%;
