@@ -1108,7 +1108,7 @@ html.no-generatedcontent .side h2 {
 .side h2 a { /* Contact us text */
 	font-family: 'Playfair Display';
 	font-size: 24px;
-	color: #FFFFFF;
+	color: #4F4F4F;
 	font-weight: normal;
 	text-transform: uppercase;
 	display: block;
@@ -1118,7 +1118,7 @@ html.no-generatedcontent .side h2 {
 .side h2 span { /* Get started today text */ 
 	font-family: Oxygen;
 	font-size: 16px;
-	color: #FFFFFF; /* $accent1 */
+	color: #4F4F4F; /* $accent1 */
 	white-space: nowrap;
 	margin: 0px 0px 5px;
 	display: inline-block;
@@ -2356,6 +2356,7 @@ html.no-canvas .main {
 /* Light grey color #DEDEDE */
 /* Blue color #106cb9 */
 /* Dark Grey color #828282 */
-/* Dark Grey color #828282 */
-/* Dark Grey color #828282 */
+/* Blackish border color #0A0A0A */
+/* Light Yellow color #FBEEC0 */
+/* Light Yellow color #F2CB4F */
 
