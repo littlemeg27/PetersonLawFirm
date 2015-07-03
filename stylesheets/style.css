@@ -189,7 +189,7 @@ body.sub #ImageZone {
 
 #CTAZone { 
 	min-height: 152px;
-	background-color: #E5D9C1; /* lighten($secondary,72%) */
+	background-color: #FBEEC0; /* lighten($secondary,72%) */
 	background-image: -webkit-linear-gradient(top,#FFFFFF,#FBEEC0); /* #E5D9C1 Brown color */ 
 	background-image: -moz-linear-gradient(top,#FFFFFF,#FBEEC0);
 	background-image: -o-linear-gradient(top,#FFFFFF,#FBEEC0);
@@ -244,7 +244,7 @@ body.sub #TestimonialZone {
 }
 
 #Footer {
-	background-color: #FAF7F2; /* lighten($accent1,79%) */
+	background-color: #FAF7F2;
 	background-image: url(/images/Bg-Footer.png);
 	background-position: bottom center;
 	min-height: 428px;
