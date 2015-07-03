@@ -225,7 +225,7 @@ body.sub #TestimonialZone {
 
 #MainZone {
 	background-color: #FFFFFF;
-	border: solid 5px #FAF7F2; /* lighten($accent1,79%) */
+	border: solid 5px #FFEDA1; /* lighten($accent1,79%) */
 	float: right;
 }
 
@@ -1079,10 +1079,10 @@ html.no-lastchild .cta-list ul li .hover span {
 
 /* Side Headers */
 .side h2 { /* Contact form header */ 
-	background-image: -webkit-radial-gradient(top,#DEDEDE, #828282);
-	background-image: -moz-radial-gradient(top, #DEDEDE, #828282);
-	background-image: -o-radial-gradient(top, #DEDEDE, #828282);
-	background-image: radial-gradient(to bottom,#DEDEDE,#828282);
+	background-image: -webkit-radial-gradient(top,#FBEEC0, #FFEDA1);
+	background-image: -moz-radial-gradient(top, #FBEEC0, #FFEDA1);
+	background-image: -o-radial-gradient(top, #FBEEC0, #FFEDA1);
+	background-image: radial-gradient(to bottom,#FBEEC0,#FFEDA1);
 	background-color: #DEDEDE; /* $primary */
 	border-bottom: 9px solid #0A0A0A; /* $secondary */
 	padding: 10px 10% 0px 10%;
@@ -1199,7 +1199,7 @@ html.no-generatedcontent .side h2 {
 /* End Side Menu */
 
 /* Contact Form */
-#ContactForm {
+#ContactForm { /* Main form area */
 	background-image: -webkit-radial-gradient(top,#DEDEDE, #828282);
 	background-image: -moz-radial-gradient(top, #DEDEDE, #828282);
 	background-image: -o-radial-gradient(top, #DEDEDE, #828282);
