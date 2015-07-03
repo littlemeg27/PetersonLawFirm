@@ -1079,10 +1079,10 @@ html.no-lastchild .cta-list ul li .hover span {
 
 /* Side Headers */
 .side h2 { /* Contact form header */ 
-	background-image: -webkit-radial-gradient(top,#FFFFF, #106cb9);
-	background-image: -moz-radial-gradient(top, #FFFFF, #106cb9);
-	background-image: -o-radial-gradient(top, #FFFFF, #106cb9);
-	background-image: radial-gradient(to bottom,#FFFFF,#106cb9);
+	background-image: -webkit-radial-gradient(top, #FFFFFF, #106cb9);
+	background-image: -moz-radial-gradient(top, #FFFFFF, #106cb9);
+	background-image: -o-radial-gradient(top, #FFFFFF, #106cb9);
+	background-image: radial-gradient(to bottom,#FFFFFF,#106cb9);
 	background-color: #DEDEDE; /* $primary */
 	border-bottom: 9px solid #0A0A0A; /* $secondary */
 	padding: 10px 10% 0px 10%;
