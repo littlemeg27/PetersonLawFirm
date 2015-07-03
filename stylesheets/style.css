@@ -180,7 +180,7 @@ body.cms-admin #StickyZone {
 	width: 100%;
 	background-image: url(/images/cityLandscape.jpg);
 	background-position: center;
-	border-bottom: 3px solid #E5D9C1; /* $accent1 */
+	border-bottom: 3px solid #0A0A0A; /* $accent1 */
 }
 
 body.sub #ImageZone {
@@ -190,10 +190,10 @@ body.sub #ImageZone {
 #CTAZone { 
 	min-height: 152px;
 	background-color: #E5D9C1; /* lighten($secondary,72%) */
-	background-image: -webkit-linear-gradient(top,#FFFFFF,#E5D9C1); /* #E5D9C1 Brown color */ 
-	background-image: -moz-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: -o-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: linear-gradient(to bottom,#FFFFFF,#E5D9C1);
+	background-image: -webkit-linear-gradient(top,#FFFFFF,#FBEEC0); /* #E5D9C1 Brown color */ 
+	background-image: -moz-linear-gradient(top,#FFFFFF,#FBEEC0);
+	background-image: -o-linear-gradient(top,#FFFFFF,#FBEEC0);
+	background-image: linear-gradient(to bottom,#FFFFFF,#FBEEC0);
 	padding-bottom: 11px;
 }
 
