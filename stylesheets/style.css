@@ -311,7 +311,7 @@ body.sub #TestimonialZone {
 }
 
 .StickyLinks ul li:hover {
-	background-color: #464646; /* $secondary */
+	background-color: #464646;
 }
 /* End Sticky Bar */
 
@@ -791,10 +791,10 @@ html.no-csstransitions .cta-list ul li .hover {
 	left: 0;
 	display: block;
 	top: 0;
-	background-image: -webkit-linear-gradient(top,#5A5A5A,rgba(0,0,0,0.95));
-	background-image: -moz-linear-gradient(top,#5A5A5A,rgba(0,0,0,0.95));
-	background-image: -o-linear-gradient(top,#5A5A5A,rgba(0,0,0,0.95));
-	background-image: linear-gradient(to bottom,#5A5A5A,rgba(0,0,0,0.95));
+	background-image: -webkit-linear-gradient(top,#5A5A5A,#DEDEDE);
+	background-image: -moz-linear-gradient(top,#5A5A5A,#DEDEDE);
+	background-image: -o-linear-gradient(top,#5A5A5A,#DEDEDE);
+	background-image: linear-gradient(to bottom,#5A5A5A,#DEDEDE);
 	-webkit-transition: top 1s, opacity 1s, filter 1s;
 	-moz-transition: top 1s, opacity 1s, filter 1s;
 	-o-transition: top 1s, opacity 1s, filter 1s;
