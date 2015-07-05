@@ -489,7 +489,7 @@ ul.MobileBtns li a icon {
 }
 
 html.no-rgba #Animation .slide .container {
-	background-image: url(images/cityLandscape.png);
+	background-image: url(/images/cityLandscape.png);
 }
 
 #Animation .slide .container .info {
@@ -530,9 +530,9 @@ html.no-rgba #Animation .slide .container {
 
 #Animation .slide .container .info p {
 	font-size: 16px;
-	color: #000000; 
-	border-top: solid 1px #000000; 
-	border-bottom: solid 1px #000000; 
+	color: #0A0A0A; 
+	border-top: solid 1px #0A0A0A; 
+	border-bottom: solid 1px #0A0A0A; 
 	margin: 0 10%;
 	padding: 15px 0;
 }
@@ -540,7 +540,7 @@ html.no-rgba #Animation .slide .container {
 #Animation .slide .container .info .button {
 	display: inline-block;
 	padding: 10px 5%;
-	background-color: #000000;
+	background-color: #0A0A0A;
 	color: #FFFFFF;
 	font-size: 13px;
 	text-shadow: 1px 2px 3px #4F4F4F;
@@ -600,7 +600,7 @@ html.no-display-table .top-nav ul li {
 }
 
 .top-nav li a {
-	color: #5F5740;
+	color: #0A0A0A;
 	line-height: 1em;
 	display: block;
 	font-size: 14px;
