@@ -269,14 +269,6 @@ body.sub #TestimonialZone {
 	max-width: 100%;
 }
 
-#StickyNav a.phonelink {
-	clear: left;
-	display: block;
-	margin: 10px 0px 0px;
-	font-size: 28px;
-	float: left;
-	color: #5F5740; /* $primary */
-}
 
 .StickyLinks {
 	float: right;
@@ -340,7 +332,7 @@ body.sub #TestimonialZone {
 	font-size: 14px;
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #464646; /* $secondary */
+	color: #464646; 
 	margin: 0;
 	line-height: 1em;
 	float: left;
