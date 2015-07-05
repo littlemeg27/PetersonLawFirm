@@ -507,7 +507,7 @@ html.no-rgba #Animation .slide .container {
 }
 
 #SubPageName {
-	background-color: rgba(70,70,70,0.9); /* alpha($secondary,90%) */
+	background-color: rgba(70,70,70,0.9); 
 	padding-top: 10px;
 	position: relative;
 	height: 100%;
@@ -540,7 +540,7 @@ html.no-rgba #Animation .slide .container {
 #Animation .slide .container .info .button {
 	display: inline-block;
 	padding: 10px 5%;
-	background-color: #828282;
+	background-color: #000000;
 	color: #FFFFFF;
 	font-size: 13px;
 	text-shadow: 1px 2px 3px #4F4F4F;
@@ -568,7 +568,7 @@ html.no-rgba #Animation .slide .container {
 }
 
 #Animation .slide .container a:hover .button {
-	background-color: #3F3B2F; 
+	background-color: #828282; 
 	color: #FFFFFF;
 }
 /* End Animation */
