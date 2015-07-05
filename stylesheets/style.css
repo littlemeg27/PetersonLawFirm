@@ -171,9 +171,9 @@ body.cms-admin #StickyZone {
 	width: 100%;
 	position: relative;
 	z-index: 10;
-	background-color: #F2ECE1; /* lighten($accent1,51%) */
-	border-top: dotted 1px #5F5740; /* $primary */
-	border-bottom: dotted 1px #5F5740; /* $primary */
+	background-color: #F2CB4F; 
+	border-top: dotted 1px #0A0A0A; /* $primary */
+	border-bottom: dotted 1px #0A0A0A; /* $primary */
 }
 
 #ImageZone {
@@ -540,7 +540,7 @@ html.no-rgba #Animation .slide .container {
 #Animation .slide .container .info .button {
 	display: inline-block;
 	padding: 10px 5%;
-	background-color: #0A0A0A;
+	background-color: #4F4F4F;
 	color: #FFFFFF;
 	font-size: 13px;
 	text-shadow: 1px 2px 3px #4F4F4F;
