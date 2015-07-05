@@ -171,14 +171,14 @@ body.cms-admin #StickyZone {
 	width: 100%;
 	position: relative;
 	z-index: 10;
-	background-color: #F2CB4F; 
-	border-top: dotted 1px #0A0A0A; /* $primary */
+	background-color: #FBEEC0;   
+	border-top: dotted 1px #0A0A0A; /* #F2CB4F */
 	border-bottom: dotted 1px #0A0A0A; /* $primary */
 }
 
 #ImageZone {
 	width: 100%;
-	background-image: url(/images/cityLandscape.jpg);
+	background-image: url(/images/cityLandscape.png);
 	background-position: center;
 	border-bottom: 3px solid #0A0A0A; /* $accent1 */
 }
@@ -207,7 +207,7 @@ body.no-zones #CTAZone2 {
 
 #TestimonialZone {
 	box-shadow: 0px 10px 15px rgba(149,149,149,0.788);
-	background-image: url(/images/Bg-Main.jpg);
+	background-image: url(/images/petersonLawLogo.png);
 	border-top: 10px solid #6C6B68; /* adjust($primary,15%,-89%,0%) */
 	padding-bottom: 20px;
 }
@@ -245,7 +245,7 @@ body.sub #TestimonialZone {
 
 #Footer {
 	background-color: #FAF7F2;
-	background-image: url(/images/Bg-Footer.png);
+	background-image: url(/images/petersonLawLogo.png);
 	background-position: bottom center;
 	min-height: 428px;
 	background-size: cover;
