@@ -189,8 +189,8 @@ body.sub #ImageZone {
 
 #CTAZone { 
 	min-height: 152px;
-	background-color: #FBEEC0; /* lighten($secondary,72%) */
-	background-image: -webkit-linear-gradient(top,#FFFFFF,#FBEEC0); /* #E5D9C1 Brown color */ 
+	background-color: #FBEEC0; 
+	background-image: -webkit-linear-gradient(top,#FFFFFF,#FBEEC0); 
 	background-image: -moz-linear-gradient(top,#FFFFFF,#FBEEC0);
 	background-image: -o-linear-gradient(top,#FFFFFF,#FBEEC0);
 	background-image: linear-gradient(to bottom,#FFFFFF,#FBEEC0);
@@ -208,7 +208,7 @@ body.no-zones #CTAZone2 {
 #TestimonialZone {
 	box-shadow: 0px 10px 15px rgba(149,149,149,0.788);
 	background-image: url(/images/petersonLawLogo.png);
-	border-top: 10px solid #6C6B68; /* adjust($primary,15%,-89%,0%) */
+	border-top: 10px solid #6C6B68;
 	padding-bottom: 20px;
 }
 
@@ -235,7 +235,7 @@ body.sub #TestimonialZone {
 }
 
 #BottomZone {
-	background-color: #106cb9; /* $primary */
+	background-color: #106cb9; 
 	background-image: -webkit-linear-gradient(-90deg, #FFFFFF,#106cb9);
 	background-image: -moz-linear-gradient(-90deg, #FFFFFF,#106cb9);
 	background-image: -o-linear-gradient(-90deg, #FFFFFF,#106cb9);
@@ -297,7 +297,7 @@ body.sub #TestimonialZone {
 	background-image: -moz-radial-gradient(top, #DEDEDE, #828282);
 	background-image: -o-radial-gradient(top, #DEDEDE, #828282);
 	background-image: radial-gradient(to bottom,#DEDEDE,#828282);
-	background-color: #9C9A9A; /* $primary */
+	background-color: #DEDEDE;
 	padding: 3px 0px;
 	display: block;
 	white-space: nowrap;
@@ -348,12 +348,12 @@ body.sub #TestimonialZone {
 }
 
 #SiteLogo .tag h2 {
-	color: #4F4F4F; /* $primary */
+	color: #4F4F4F; 
 	font-size: 26px;
 	margin: 0;
 	line-height: 1em;
-	border-top: solid 1px #E5D9C1; /* $accent1 */
-	border-bottom: solid 1px #E5D9C1; /* $accent1 */
+	border-top: solid 1px #E5D9C1; 
+	border-bottom: solid 1px #E5D9C1; 
 	padding: 7px 0;
 	display: inline-block;
 }
@@ -828,7 +828,7 @@ html.no-csstransitions .cta-list ul li:hover .top {
 }
 
 .cta-list ul li h2 {
-	color: #F2CB4F;
+	color: #FFFFFF;
 	font-size: 18px;
 	line-height: 1.13em;
 	text-transform: uppercase;
