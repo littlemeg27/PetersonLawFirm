@@ -611,7 +611,7 @@ html.no-display-table .top-nav ul li {
 .top-nav li a:hover {
 	color: #FFFFFF;
 	text-decoration: none;
-	background-color: rgba(95,87,64,0.75); /* alpha($primary,75%) */
+	background-color: rgba(95,87,64,0.75); 
 }
 /* End Top Nav Styles */
 
@@ -653,7 +653,7 @@ nav.top-nav div.ifly {
 
 nav.top-nav div.ifly a {
 	padding: 10px 25px;
-	color: #5F5740; /* $primary */
+	color: #5F5740; 
 	min-width: 150px;
 	line-height: 1.5em;
 	border-bottom: none;
@@ -665,7 +665,7 @@ nav.top-nav div.ifly a:hover {
 }
 
 nav.top-nav div.iflyOver {
-	background-color: #5F5740; /* $primary */
+	background-color: #5F5740;
 }
 
 nav.top-nav div.ifly a.iflyOver {
@@ -685,7 +685,7 @@ nav.top-nav div.iflyRight>a:before {
 }
 
 div.iflylist div.ui-more-items {
-	background-color: #5F5740; /* $primary */
+	background-color: #5F5740; 
 	border-top: solid 1px #ddd;
 	position: relative;
 }
@@ -832,6 +832,7 @@ html.no-csstransitions .cta-list ul li:hover .top {
 	font-size: 18px;
 	line-height: 1.13em;
 	text-transform: uppercase;
+	text-shadow: 1px 2px 3px #4F4F4F;
 	margin: 8px 0px;
 }
 
