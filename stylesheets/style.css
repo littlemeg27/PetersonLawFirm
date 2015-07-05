@@ -489,7 +489,7 @@ ul.MobileBtns li a icon {
 }
 
 html.no-rgba #Animation .slide .container {
-	background-image: url(/images/Black-Semitransparent.png);
+	background-image: url(images/cityLandscape.png);
 }
 
 #Animation .slide .container .info {
@@ -530,9 +530,9 @@ html.no-rgba #Animation .slide .container {
 
 #Animation .slide .container .info p {
 	font-size: 16px;
-	color: #3F3B2F; /* $accent2 */
-	border-top: solid 1px #7A7A7A; /* adjust($secondary,28%,-17%,0%) */
-	border-bottom: solid 1px #7A7A7A; /* adjust($secondary,28%,-17%,0%) */
+	color: #828282; 
+	border-top: solid 1px #7A7A7A; 
+	border-bottom: solid 1px #7A7A7A; 
 	margin: 0 10%;
 	padding: 15px 0;
 }
@@ -540,7 +540,7 @@ html.no-rgba #Animation .slide .container {
 #Animation .slide .container .info .button {
 	display: inline-block;
 	padding: 10px 5%;
-	background-color: #5F5740; /* $primary */
+	background-color: #828282;
 	color: #FFFFFF;
 	font-size: 13px;
 	text-transform: uppercase;
