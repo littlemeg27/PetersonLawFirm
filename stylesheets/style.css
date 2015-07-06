@@ -2339,7 +2339,7 @@ html.no-canvas .main {
 	background-image: -moz-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
 	background-image: -o-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
 	background-image: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
-	border-bottom: solid 9px #464646;
+	border-bottom: solid 9px #0A0A0A;
 }
 
 #ContentCTA a:hover, #RealEstateCTA a:hover {
