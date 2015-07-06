@@ -2309,7 +2309,10 @@ html.no-canvas .main {
 	color: #4F4F4F;
 	text-transform: uppercase;
 	font-size: 16px;
-	background-image: #DEDEDE;
+	background-image: -webkit-linear-gradient(top,#DEDEDE,#9B9B9B);
+	background-image: -moz-linear-gradient(top,#DEDEDE,#9B9B9B);
+	background-image: -o-linear-gradient(top,#DEDEDE,#9B9B9B);
+	background-image: linear-gradient(to bottom,#DEDEDE,#9B9B9B);
 }
 
 #ContentCTA:hover .Btn, #RealEstateCTA:hover .Btn {
