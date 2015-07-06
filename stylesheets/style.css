@@ -1335,9 +1335,9 @@ html.no-boxsizing .contact-form textarea {
 	float: left;
 	display: block;
 	width: 18%;
-	color: #4F4F4F; /* $accent1 */
-	border-top: solid 1px #4F4F4F; 
-	border-bottom: solid 1px #4F4F4F; 
+	color: #FFFFFF; /* $accent1 */
+	border-top: solid 1px #FFFFFF; 
+	border-bottom: solid 1px #FFFFFF; 
 	text-align: center;
 	font-size: 12px;
 	text-transform: uppercase;
