@@ -1335,9 +1335,9 @@ html.no-boxsizing .contact-form textarea {
 	float: left;
 	display: block;
 	width: 18%;
-	color: #E5D9C1; /* $accent1 */
-	border-top: solid 1px #E5D9C1; /* $accent1 */
-	border-bottom: solid 1px #E5D9C1; /* $accent1 */
+	color: #4F4F4F; /* $accent1 */
+	border-top: solid 1px #4F4F4F; 
+	border-bottom: solid 1px #4F4F4F; 
 	text-align: center;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -1358,7 +1358,7 @@ html.no-boxsizing .contact-form textarea {
 
 #SocialFooter ul li a {
 	display: block;
-	background-color: #464646; /* $secondary */
+	background-color: #464646; 
 	color: #FFFFFF;
 	padding: 5px 5px;
 	font-size: 18px;
