@@ -249,7 +249,7 @@ body.sub #TestimonialZone {
 	background-position: bottom center;
 	min-height: 428px;
 	background-size: cover;
-	border-top: 7px solid #0A0A0A; 
+	border-top: 7px solid #464646; /* $secondary */
 }
 
 #FooterZone {
@@ -1358,7 +1358,7 @@ html.no-boxsizing .contact-form textarea {
 
 #SocialFooter ul li a {
 	display: block;
-	background-color: #464646; 
+	background-color: #828282; 
 	color: #FFFFFF;
 	padding: 5px 5px;
 	font-size: 18px;
@@ -1366,7 +1366,7 @@ html.no-boxsizing .contact-form textarea {
 }
 
 #SocialFooter ul li a:hover {
-	color: #4E4A3C;
+	color: #828282;
 	background-color: #FFFFFF;
 }
 
