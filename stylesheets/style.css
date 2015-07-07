@@ -244,12 +244,12 @@ body.sub #TestimonialZone {
 }
 
 #Footer {
-	background-color: #FAF7F2;
+	background-color: #FFFFFF;
 	background-image: url(/images/petersonLawLogo.png);
 	background-position: bottom center;
 	min-height: 428px;
 	background-size: cover;
-	border-top: 7px solid #464646; /* $secondary */
+	border-top: 7px solid #0A0A0A; 
 }
 
 #FooterZone {
