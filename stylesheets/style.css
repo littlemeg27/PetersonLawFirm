@@ -249,7 +249,7 @@ body.sub #TestimonialZone {
 	background-position: bottom center;
 	min-height: 428px;
 	background-size: cover;
-	border-top: 7px solid #0A0A0A; /* $secondary */
+	border-top: 7px solid #0A0A0A;
 }
 
 #FooterZone {
@@ -1399,7 +1399,7 @@ html.no-boxsizing .contact-form textarea {
 #FooterModule h2 {
 	font-family: 'Playfair Display';
 	font-weight: normal;
-	color: #E5D9C1; /* $accent1 */
+	color: #4F4F4F;
 	text-align: center;
 	font-size: 35px;
 	font-variant: small-caps;
@@ -1409,7 +1409,7 @@ html.no-boxsizing .contact-form textarea {
 #FooterModule h3 {
 	font-size: 20px;
 	font-weight: normal;
-	color: #FFFFFF;
+	color: #4F4F4F;
 	text-align: center;
 	text-shadow: -1px -1px 5px #000;
 }
