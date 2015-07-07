@@ -1358,7 +1358,7 @@ html.no-boxsizing .contact-form textarea {
 
 #SocialFooter ul li a {
 	display: block;
-	background-color: #828282; 
+	background-color: #4F4F4F; 
 	color: #FFFFFF;
 	padding: 5px 5px;
 	font-size: 18px;
@@ -1366,7 +1366,7 @@ html.no-boxsizing .contact-form textarea {
 }
 
 #SocialFooter ul li a:hover {
-	color: #828282;
+	color: #4F4F4F;
 	background-color: #FFFFFF;
 }
 
