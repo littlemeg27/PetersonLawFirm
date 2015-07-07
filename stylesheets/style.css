@@ -1145,9 +1145,9 @@ html.no-generatedcontent .side h2 {
 #ValueList ul li {
 	display: block;
 	padding: 8px 0 8px 13%;
-	color: #514649;
+	color: #4F4F4F;
 	font-size: 14px;
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 }
 
 .side-nav ul li.level2 a {
@@ -1163,10 +1163,10 @@ html.no-generatedcontent .side h2 {
 }
 
 .side-nav ul li.selected a, .side-nav ul li a:hover {
-	background-color: #464646; /* $secondary */
+	background-color: #828282; 
 	text-decoration: none;
-	color: #E5D9C1; /* $accent1 */
-	box-shadow: inset -30px 0 0 0 #5F5740; /* $primary */
+	color: #FFFFFF; /* $accent1 */
+	box-shadow: inset -30px 0 0 0 #106cb9; 
 }
 
 .side-nav ul li.selected a:after, .side-nav ul li a:hover:after {
