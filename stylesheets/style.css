@@ -1078,14 +1078,14 @@ html.no-lastchild .cta-list ul li .hover span {
 	background-image: -o-radial-gradient(top, #FFFFFF, #106cb9);
 	background-image: radial-gradient(to bottom,#FFFFFF,#106cb9);
 	background-color: #DEDEDE; /* $primary */
-	border-bottom: 9px solid #0A0A0A; /* $secondary */
+	border-bottom: 9px solid #0A0A0A; 
 	padding: 10px 10% 10px 10%;
 	margin: 0 0 10px;
 	font-family: 'Playfair Display';
 	font-size: 24px;
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #0A0A0A;
 }
 
 .side h2:after {
