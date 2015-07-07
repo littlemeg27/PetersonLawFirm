@@ -1079,7 +1079,7 @@ html.no-lastchild .cta-list ul li .hover span {
 	background-image: radial-gradient(to bottom,#FFFFFF,#106cb9);
 	background-color: #DEDEDE; /* $primary */
 	border-bottom: 9px solid #0A0A0A; /* $secondary */
-	padding: 10px 10% 0px 10%;
+	padding: 10px 10% 10px 10%;
 	margin: 0 0 10px;
 	font-family: 'Playfair Display';
 	font-size: 24px;
