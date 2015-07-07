@@ -132,7 +132,7 @@ form *,form *:before,form *:after {
 }
 
 #StickyZone { /* Moving header */
-	border-bottom: 3px solid #4E4A3C;
+	border-bottom: 3px solid #0A0A0A;
 	padding: 10px 0px;
 	position: fixed;
 	width: 100%;
@@ -1137,9 +1137,9 @@ html.no-generatedcontent .side h2 {
 .side-nav ul li a {
 	display: block;
 	padding: 8px 0 8px 10%;
-	color: #514649;
+	color: #4F4F4F;
 	font-size: 14px;
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 }
 
 #ValueList ul li {
@@ -1814,6 +1814,7 @@ html.no-canvas .main {
 		float: none;
 		text-align: center;
 		margin-top: 4px;
+		margin-bottom: 4px;
 	}
 
 	.cta-list ul li a.button {
