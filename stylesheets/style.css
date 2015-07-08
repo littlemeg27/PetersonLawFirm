@@ -605,7 +605,7 @@ html.no-display-table .top-nav ul li {
 .top-nav li a:hover {
 	color: #FFFFFF;
 	text-decoration: none;
-	background-color: rgba(95,87,64,0.75); 
+	background-color: #828282; 
 }
 /* End Top Nav Styles */
 
