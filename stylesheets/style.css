@@ -17,6 +17,7 @@ h1 {
 	font-family: 'Playfair Display', Roboto, Segoe UI, Helvetica, sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 h2, h3 {
@@ -26,6 +27,7 @@ h2, h3 {
 	font-family: Roboto, Segoe UI, Helvetica, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 a {
