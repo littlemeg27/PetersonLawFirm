@@ -2,7 +2,7 @@ body {
 	background: #ffffff;
 	margin: 0px;
 	font-family: Roboto, Segoe UI, Helvetica, sans-serif;
-	background-image: url(/images/Bg-Main.jpg);
+	background-image: url(images/cityLandscape.png);
 }
 
 body em {
@@ -11,31 +11,33 @@ body em {
 
 h1 {
 	margin-top: 10px;
-	color: #3F3B2F; /* $accent2 */
+	color: #4F4F4F; /* $accent2 */
 	font-size: 26px;
 	line-height: 26px;
 	font-family: 'Playfair Display', Roboto, Segoe UI, Helvetica, sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 h2, h3 {
-	color: #5F5740; /* $primary */
+	color: #4F4F4F; /* $primary */
 	font-size: 20px;
 	line-height: 22px;
 	font-family: Roboto, Segoe UI, Helvetica, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 a {
 	text-decoration: none;
-	color: #BE8D2A; /* adjust($accent1,-45%,39%,0%) */
+	color: #4F4F4F; 
 }
 
 a:hover {
 	text-decoration: none;
-	color: #464646; /* $secondary */
+	color: #464646; 
 }
 
 a.phonelink {
@@ -52,7 +54,7 @@ a.phonelink {
 }
 
 .fancyfont {
-	background-color: #5F5740;
+	background-color: #828282;
 	margin: 12px 0px 30px 0px;
 	display: block;
 	padding: 3px 10px;
@@ -75,10 +77,10 @@ a.phonelink {
 	color: #FFFFFF;
 }
 
-main {
+main { /* Main background */
 	padding-bottom: 20px;
 	display: block;
-	background-color: #E5D9C1; /* $accent1 */
+	background-color: #106cb9; /* $accent1 */
 }
 
 .main {
@@ -132,7 +134,7 @@ form *,form *:before,form *:after {
 }
 
 #StickyZone { /* Moving header */
-	border-bottom: 3px solid #4E4A3C;
+	border-bottom: 3px solid #0A0A0A;
 	padding: 10px 0px;
 	position: fixed;
 	width: 100%;
@@ -161,26 +163,26 @@ body.cms-admin #StickyZone {
 	min-height: 114px;
 	width: 100%;
 	z-index: 45;
-	background-image: -webkit-linear-gradient(top,#106cb9,#E5D9C1);
-	background-image: -moz-linear-gradient(top, #106cb9, #E5D9C1);
-	background-image: -o-linear-gradient(top, #106cb9, #E5D9C1);
-	background-image: linear-gradient(to bottom,#106cb9,#E5D9C1);
+	background-image: -webkit-linear-gradient(top,#106cb9,#FBEEC0);
+	background-image: -moz-linear-gradient(top, #106cb9, #FBEEC0);
+	background-image: -o-linear-gradient(top, #106cb9, #FBEEC0);
+	background-image: linear-gradient(to bottom,#106cb9,#FBEEC0);
 }
 
 #NavZone {
 	width: 100%;
 	position: relative;
 	z-index: 10;
-	background-color: #F2ECE1; /* lighten($accent1,51%) */
-	border-top: dotted 1px #5F5740; /* $primary */
-	border-bottom: dotted 1px #5F5740; /* $primary */
+	background-color: #FBEEC0;   
+	border-top: dotted 1px #0A0A0A; /* #F2CB4F */
+	border-bottom: dotted 1px #0A0A0A; /* $primary */
 }
 
 #ImageZone {
 	width: 100%;
-	background-image: url(/images/cityLandscape.jpg);
+	background-image: url(images/cityLandscape.png);
 	background-position: center;
-	border-bottom: 3px solid #E5D9C1; /* $accent1 */
+	border-bottom: 3px solid #0A0A0A; /* $accent1 */
 }
 
 body.sub #ImageZone {
@@ -189,11 +191,11 @@ body.sub #ImageZone {
 
 #CTAZone { 
 	min-height: 152px;
-	background-color: #E5D9C1; /* lighten($secondary,72%) */
-	background-image: -webkit-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: -moz-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: -o-linear-gradient(top,#FFFFFF,#E5D9C1);
-	background-image: linear-gradient(to bottom,#FFFFFF,#E5D9C1);
+	background-color: #FBEEC0; 
+	background-image: -webkit-linear-gradient(top,#FFFFFF,#FBEEC0); 
+	background-image: -moz-linear-gradient(top,#FFFFFF,#FBEEC0);
+	background-image: -o-linear-gradient(top,#FFFFFF,#FBEEC0);
+	background-image: linear-gradient(to bottom,#FFFFFF,#FBEEC0);
 	padding-bottom: 11px;
 }
 
@@ -207,8 +209,8 @@ body.no-zones #CTAZone2 {
 
 #TestimonialZone {
 	box-shadow: 0px 10px 15px rgba(149,149,149,0.788);
-	background-image: url(/images/Bg-Main.jpg);
-	border-top: 10px solid #6C6B68; /* adjust($primary,15%,-89%,0%) */
+	background-image: url(/images/petersonLawLogo.png);
+	border-top: 10px solid #6C6B68;
 	padding-bottom: 20px;
 }
 
@@ -225,7 +227,7 @@ body.sub #TestimonialZone {
 
 #MainZone {
 	background-color: #FFFFFF;
-	border: solid 5px #FAF7F2; /* lighten($accent1,79%) */
+	border: solid 5px #FFEDA1; /* lighten($accent1,79%) */
 	float: right;
 }
 
@@ -235,7 +237,7 @@ body.sub #TestimonialZone {
 }
 
 #BottomZone {
-	background-color: #106cb9; /* $primary */
+	background-color: #106cb9; 
 	background-image: -webkit-linear-gradient(-90deg, #FFFFFF,#106cb9);
 	background-image: -moz-linear-gradient(-90deg, #FFFFFF,#106cb9);
 	background-image: -o-linear-gradient(-90deg, #FFFFFF,#106cb9);
@@ -244,12 +246,12 @@ body.sub #TestimonialZone {
 }
 
 #Footer {
-	background-color: #FAF7F2; /* lighten($accent1,79%) */
-	background-image: url(/images/Bg-Footer.png);
+	background-color: #FFFFFF;
+	background-image: url(/images/petersonLawLogo.png);
 	background-position: bottom center;
 	min-height: 428px;
 	background-size: cover;
-	border-top: 7px solid #464646; /* $secondary */
+	border-top: 7px solid #0A0A0A;
 }
 
 #FooterZone {
@@ -269,14 +271,6 @@ body.sub #TestimonialZone {
 	max-width: 100%;
 }
 
-#StickyNav a.phonelink {
-	clear: left;
-	display: block;
-	margin: 10px 0px 0px;
-	font-size: 28px;
-	float: left;
-	color: #5F5740; /* $primary */
-}
 
 .StickyLinks {
 	float: right;
@@ -297,7 +291,7 @@ body.sub #TestimonialZone {
 	background-image: -moz-radial-gradient(top, #DEDEDE, #828282);
 	background-image: -o-radial-gradient(top, #DEDEDE, #828282);
 	background-image: radial-gradient(to bottom,#DEDEDE,#828282);
-	background-color: #9C9A9A; /* $primary */
+	background-color: #DEDEDE;
 	padding: 3px 0px;
 	display: block;
 	white-space: nowrap;
@@ -311,7 +305,7 @@ body.sub #TestimonialZone {
 }
 
 .StickyLinks ul li:hover {
-	background-color: #464646; /* $secondary */
+	background-color: #464646;
 }
 /* End Sticky Bar */
 
@@ -340,7 +334,7 @@ body.sub #TestimonialZone {
 	font-size: 14px;
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #464646; /* $secondary */
+	color: #4F4F4F; 
 	margin: 0;
 	line-height: 1em;
 	float: left;
@@ -348,18 +342,18 @@ body.sub #TestimonialZone {
 }
 
 #SiteLogo .tag h2 {
-	color: #4F4F4F; /* $primary */
+	color: #4F4F4F; 
 	font-size: 26px;
 	margin: 0;
 	line-height: 1em;
-	border-top: solid 1px #E5D9C1; /* $accent1 */
-	border-bottom: solid 1px #E5D9C1; /* $accent1 */
+	border-top: solid 1px #4F4F4F; 
+	border-bottom: solid 1px #4F4F4F; 
 	padding: 7px 0;
 	display: inline-block;
 }
 
 #SiteLogo .tag h2 a {
-	color: #5F5740; /* $primary */
+	color: #4F4F4F; /* $primary */
 }
 
 #SiteLogo p {
@@ -489,7 +483,7 @@ ul.MobileBtns li a icon {
 }
 
 html.no-rgba #Animation .slide .container {
-	background-image: url(/images/Black-Semitransparent.png);
+	background-image: url(/images/cityLandscape.png);
 }
 
 #Animation .slide .container .info {
@@ -507,7 +501,7 @@ html.no-rgba #Animation .slide .container {
 }
 
 #SubPageName {
-	background-color: rgba(70,70,70,0.9); /* alpha($secondary,90%) */
+	background-color: rgba(70,70,70,0.9); 
 	padding-top: 10px;
 	position: relative;
 	height: 100%;
@@ -530,9 +524,9 @@ html.no-rgba #Animation .slide .container {
 
 #Animation .slide .container .info p {
 	font-size: 16px;
-	color: #3F3B2F; /* $accent2 */
-	border-top: solid 1px #7A7A7A; /* adjust($secondary,28%,-17%,0%) */
-	border-bottom: solid 1px #7A7A7A; /* adjust($secondary,28%,-17%,0%) */
+	color: #0A0A0A; 
+	border-top: solid 1px #0A0A0A; 
+	border-bottom: solid 1px #0A0A0A; 
 	margin: 0 10%;
 	padding: 15px 0;
 }
@@ -540,9 +534,10 @@ html.no-rgba #Animation .slide .container {
 #Animation .slide .container .info .button {
 	display: inline-block;
 	padding: 10px 5%;
-	background-color: #5F5740; /* $primary */
+	background-color: #4F4F4F;
 	color: #FFFFFF;
 	font-size: 13px;
+	text-shadow: 1px 2px 3px #4F4F4F;
 	text-transform: uppercase;
 	box-shadow: 1px 2px 3px rgba(0,0,0,.29);
 }
@@ -567,7 +562,7 @@ html.no-rgba #Animation .slide .container {
 }
 
 #Animation .slide .container a:hover .button {
-	background-color: #3F3B2F; /* $accent2 */
+	background-color: #828282; 
 	color: #FFFFFF;
 }
 /* End Animation */
@@ -599,7 +594,7 @@ html.no-display-table .top-nav ul li {
 }
 
 .top-nav li a {
-	color: #5F5740;
+	color: #0A0A0A;
 	line-height: 1em;
 	display: block;
 	font-size: 14px;
@@ -610,14 +605,14 @@ html.no-display-table .top-nav ul li {
 .top-nav li a:hover {
 	color: #FFFFFF;
 	text-decoration: none;
-	background-color: rgba(95,87,64,0.75); /* alpha($primary,75%) */
+	background-color: #828282; 
 }
 /* End Top Nav Styles */
 
 /* Flyout Menu */
 nav.top-nav div.iflylist {
 	background-color: #FFFFFF;
-	color: #5F5740; /* $primary */
+	color: #828282; /* $primary */
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0px 2px 6px rgba(0,0,0,1);
@@ -652,7 +647,7 @@ nav.top-nav div.ifly {
 
 nav.top-nav div.ifly a {
 	padding: 10px 25px;
-	color: #5F5740; /* $primary */
+	color: #828282; 
 	min-width: 150px;
 	line-height: 1.5em;
 	border-bottom: none;
@@ -664,7 +659,7 @@ nav.top-nav div.ifly a:hover {
 }
 
 nav.top-nav div.iflyOver {
-	background-color: #5F5740; /* $primary */
+	background-color: #828282;
 }
 
 nav.top-nav div.ifly a.iflyOver {
@@ -684,7 +679,7 @@ nav.top-nav div.iflyRight>a:before {
 }
 
 div.iflylist div.ui-more-items {
-	background-color: #5F5740; /* $primary */
+	background-color: #5F5740; 
 	border-top: solid 1px #ddd;
 	position: relative;
 }
@@ -790,10 +785,10 @@ html.no-csstransitions .cta-list ul li .hover {
 	left: 0;
 	display: block;
 	top: 0;
-	background-image: -webkit-linear-gradient(top,#5A5A5A,rgba(0,0,0,0.95));
-	background-image: -moz-linear-gradient(top,#5A5A5A,rgba(0,0,0,0.95));
-	background-image: -o-linear-gradient(top,#5A5A5A,rgba(0,0,0,0.95));
-	background-image: linear-gradient(to bottom,#5A5A5A,rgba(0,0,0,0.95));
+	background-image: -webkit-linear-gradient(top,#5A5A5A,#828282);
+	background-image: -moz-linear-gradient(top,#5A5A5A,#828282);
+	background-image: -o-linear-gradient(top,#5A5A5A,#828282);
+	background-image: linear-gradient(to bottom,#5A5A5A,#828282);
 	-webkit-transition: top 1s, opacity 1s, filter 1s;
 	-moz-transition: top 1s, opacity 1s, filter 1s;
 	-o-transition: top 1s, opacity 1s, filter 1s;
@@ -827,10 +822,11 @@ html.no-csstransitions .cta-list ul li:hover .top {
 }
 
 .cta-list ul li h2 {
-	color: #E5D9C1;
+	color: #FFFFFF;
 	font-size: 18px;
 	line-height: 1.13em;
 	text-transform: uppercase;
+	text-shadow: 1px 2px 3px #4F4F4F;
 	margin: 8px 0px;
 }
 
@@ -848,10 +844,10 @@ html.no-csstransitions .cta-list ul li:hover .top {
 	top: 0;
 	left: 0;
 	height: 130px;
-	background-image: -webkit-linear-gradient(top,#2A2A2A,#4E4A3C);
-	background-image: -moz-linear-gradient(top,#2A2A2A,#4E4A3C);
-	background-image: -o-linear-gradient(top,#2A2A2A,#4E4A3C);
-	background-image: linear-gradient(to bottom,#2A2A2A,#4E4A3C);
+	background-image: -webkit-linear-gradient(top,#2A2A2A,#DEDEDE);
+	background-image: -moz-linear-gradient(top,#2A2A2A,#DEDEDE);
+	background-image: -o-linear-gradient(top,#2A2A2A,#DEDEDE);
+	background-image: linear-gradient(to bottom,#2A2A2A,#DEDEDE);
 }
 
 body.sub .cta-list ul li .hover {
@@ -870,7 +866,7 @@ body.sub .cta-list ul li p {
 }
 
 .cta-list ul li .hover span {
-	background-color: #E5D9C1; /* $accent1 */
+	background-color: #F2CB4F; /* $accent1 */
 	width: 80%;
 	color: #2A2A2A;
 	font-size: 14px;
@@ -1078,20 +1074,20 @@ html.no-lastchild .cta-list ul li .hover span {
 /* Content CTA Styles *//* End Content CTA Styles */
 
 /* Side Headers */
-.side h2 {
-	background-color: #5F5740; /* $primary */
-	background-image: -webkit-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	background-image: -moz-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	background-image: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	background-image: linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	border-bottom: 9px solid #464646; /* $secondary */
-	padding: 10px 10% 0px 10%;
+.side h2 { /* Contact form header */ 
+	background-image: -webkit-radial-gradient(top, #FFFFFF, #106cb9);
+	background-image: -moz-radial-gradient(top, #FFFFFF, #106cb9);
+	background-image: -o-radial-gradient(top, #FFFFFF, #106cb9);
+	background-image: radial-gradient(to bottom,#FFFFFF,#106cb9);
+	background-color: #DEDEDE; /* $primary */
+	border-bottom: 9px solid #0A0A0A; 
+	padding: 10px 10% 10px 10%;
 	margin: 0 0 10px;
 	font-family: 'Playfair Display';
 	font-size: 24px;
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #0A0A0A;
 }
 
 .side h2:after {
@@ -1105,20 +1101,20 @@ html.no-generatedcontent .side h2 {
 	zoom: 1;
 }
 
-.side h2 a {
+.side h2 a { /* Estate Planning header */
 	font-family: 'Playfair Display';
 	font-size: 24px;
-	color: #FFFFFF;
+	color: #0A0A0A;
 	font-weight: normal;
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 0px;
 }
 
-.side h2 span {
+.side h2 span { /* Get started */ 
 	font-family: Oxygen;
 	font-size: 16px;
-	color: #E5D9C1; /* $accent1 */
+	color: #0A0A0A; /* $accent1 */
 	white-space: nowrap;
 	margin: 0px 0px 5px;
 	display: inline-block;
@@ -1143,17 +1139,17 @@ html.no-generatedcontent .side h2 {
 .side-nav ul li a {
 	display: block;
 	padding: 8px 0 8px 10%;
-	color: #514649;
+	color: #4F4F4F;
 	font-size: 14px;
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 }
 
 #ValueList ul li {
 	display: block;
 	padding: 8px 0 8px 13%;
-	color: #514649;
+	color: #4F4F4F;
 	font-size: 14px;
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 }
 
 .side-nav ul li.level2 a {
@@ -1169,10 +1165,10 @@ html.no-generatedcontent .side h2 {
 }
 
 .side-nav ul li.selected a, .side-nav ul li a:hover {
-	background-color: #464646; /* $secondary */
+	background-color: #828282; 
 	text-decoration: none;
-	color: #E5D9C1; /* $accent1 */
-	box-shadow: inset -30px 0 0 0 #5F5740; /* $primary */
+	color: #FFFFFF; /* $accent1 */
+	box-shadow: inset -30px 0 0 0 #106cb9; 
 }
 
 .side-nav ul li.selected a:after, .side-nav ul li a:hover:after {
@@ -1199,12 +1195,18 @@ html.no-generatedcontent .side h2 {
 /* End Side Menu */
 
 /* Contact Form */
-#ContactForm {
-	background-color: #656461; /* adjust($primary,11%,-89%,0%) */
-	background-image: -webkit-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	background-image: -moz-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	background-image: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
-	background-image: linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,0.255),rgba(255,255,255,0));
+#ContactForm { /* Main form area */
+	background-image: -webkit-radial-gradient(top,#DEDEDE, #828282);
+	background-image: -moz-radial-gradient(top, #DEDEDE, #828282);
+	background-image: -o-radial-gradient(top, #DEDEDE, #828282);
+	background-image: radial-gradient(to bottom,#DEDEDE,#828282);
+	background-color: #DEDEDE; /* $primary */
+	
+	/* 	background-image: -webkit-radial-gradient(top,#DEDEDE, #828282);
+	background-image: -moz-radial-gradient(top, #DEDEDE, #828282);
+	background-image: -o-radial-gradient(top, #DEDEDE, #828282);
+	background-image: radial-gradient(to bottom,#DEDEDE,#828282);
+	background-color: #DEDEDE; /* $primary */ */
 }
 
 .contact-form {
@@ -1219,15 +1221,15 @@ html.no-generatedcontent .side h2 {
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0 0 8px;
-	color: #DDDCDB; /* adjust($primary,80%,-90%,0%) */
+	color: #fff8f0;
 }
 
 .contact-form input, .contact-form textarea {
-	background-color: #F2ECE0; /* lighten($accent1,50%) */
-	background-image: -webkit-linear-gradient(bottom,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
-	background-image: -moz-linear-gradient(bottom,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
-	background-image: -o-linear-gradient(bottom,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
-	background-image: linear-gradient(to top,#E4D7BE,#FFFFFF); /* darken($accent1,1%),lighten($accent1,100%) */
+	background-color: #FFFFFF;
+	background-image: #FFFFFF;
+	background-image: #FFFFFF;
+	background-image: #FFFFFF;
+	background-image: #FFFFFF;
 	box-shadow: inset 1px 1px 3px rgba(0,0,0,.32);
 	border: none;
 	width: 100%;
@@ -1265,7 +1267,7 @@ html.no-boxsizing .contact-form textarea {
 }
 
 .contact-form a.button {
-	background-color: #464646; /* $secondary */
+	background-color: #828282; /* $secondary */
 	display: block;
 	padding: 10px 0 10px 10%;
 	box-shadow: 1px 1px 3px rgba(0,0,0,.45);
@@ -1286,7 +1288,7 @@ html.no-boxsizing .contact-form textarea {
 
 .contact-form a.button span {
 	width: 20%;
-	background-color: #5F5740; /* $primary */
+	background-color: #0A0A0A; /* $primary */ 
 	display: inline-block;
 	position: absolute;
 	right: 0;
@@ -1335,9 +1337,9 @@ html.no-boxsizing .contact-form textarea {
 	float: left;
 	display: block;
 	width: 18%;
-	color: #E5D9C1; /* $accent1 */
-	border-top: solid 1px #E5D9C1; /* $accent1 */
-	border-bottom: solid 1px #E5D9C1; /* $accent1 */
+	color: #FFFFFF; /* $accent1 */
+	border-top: solid 1px #FFFFFF; 
+	border-bottom: solid 1px #FFFFFF; 
 	text-align: center;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -1358,7 +1360,7 @@ html.no-boxsizing .contact-form textarea {
 
 #SocialFooter ul li a {
 	display: block;
-	background-color: #464646; /* $secondary */
+	background-color: #4F4F4F; 
 	color: #FFFFFF;
 	padding: 5px 5px;
 	font-size: 18px;
@@ -1366,13 +1368,13 @@ html.no-boxsizing .contact-form textarea {
 }
 
 #SocialFooter ul li a:hover {
-	color: #4E4A3C;
+	color: #4F4F4F;
 	background-color: #FFFFFF;
 }
 
 #FooterContent {
 	float: right;
-	color: rgba(255,255,255,0.35);
+	color: #4F4F4F;
 	font-size: 11px;
 	text-transform: uppercase;
 	width: 60%;
@@ -1380,7 +1382,7 @@ html.no-boxsizing .contact-form textarea {
 }
 
 #FooterContent a {
-	color: #E5D9C1; /* $accent1 */
+	color: #4F4F4F; /* $accent1 */
 	margin: 3% 1%;
 	font-size: 13px;
 }
@@ -1399,7 +1401,7 @@ html.no-boxsizing .contact-form textarea {
 #FooterModule h2 {
 	font-family: 'Playfair Display';
 	font-weight: normal;
-	color: #E5D9C1; /* $accent1 */
+	color: #4F4F4F;
 	text-align: center;
 	font-size: 35px;
 	font-variant: small-caps;
@@ -1409,7 +1411,7 @@ html.no-boxsizing .contact-form textarea {
 #FooterModule h3 {
 	font-size: 20px;
 	font-weight: normal;
-	color: #FFFFFF;
+	color: #106cb9;
 	text-align: center;
 	text-shadow: -1px -1px 5px #000;
 }
@@ -1453,15 +1455,15 @@ html.no-boxsizing .contact-form textarea {
 }
 
 .Schema {
-	border-top: solid 1px #E5D9C1; /* $accent1 */
-	border-bottom: solid 1px #E5D9C1; /* $accent1 */
+	border-top: solid 1px #0A0A0A; /* $accent1 */
+	border-bottom: solid 1px #0A0A0A; /* $accent1 */
 	font-size: 12px;
-	color: #464646; /* $secondary */
+	color: #4F4F4F; /* $secondary */
 	padding: 15px 0;
 }
 
 .Schema a {
-	color: #E5D9C1;
+	color: #4F4F4F;
 }
 
 .Schema a:hover {
@@ -1482,19 +1484,19 @@ html.no-boxsizing .contact-form textarea {
 	width: 36%;
 	float: left;
 	padding-top: 5px;
-	color: #FFFFFF;
+	color: #4F4F4F;
 }
 
 .Schema .URL {
 	width: 30%;
 	float: right;
 	padding-top: 5px;
-	color: #FFFFFF;
+	color: #0A0A0A;
 }
 
 #Smaller {
 	font-size: 11px;
-	color: #FFFFFF;
+	color: #4F4F4F;
 	line-height: 1.8em;
 	padding-top: 20px;
 }
@@ -1814,6 +1816,7 @@ html.no-canvas .main {
 		float: none;
 		text-align: center;
 		margin-top: 4px;
+		margin-bottom: 4px;
 	}
 
 	.cta-list ul li a.button {
@@ -2295,7 +2298,7 @@ html.no-canvas .main {
 }
 
 #ContentCTA p, #RealEstateCTA p {
-	color: #E5D9C1;
+	color: #DEDEDE;
 	font-size: 16px;
 	margin: 5px 0px 10px;
 }
@@ -2306,21 +2309,21 @@ html.no-canvas .main {
 	padding: 5px 10% 3px;
 	text-align: center;
 	border-radius: 5px;
-	color: #5F5740;
+	color: #4F4F4F;
 	text-transform: uppercase;
 	font-size: 16px;
-	background-image: -webkit-linear-gradient(top,#E5D9C1,#D0BA8E);
-	background-image: -moz-linear-gradient(top,#E5D9C1,#D0BA8E);
-	background-image: -o-linear-gradient(top,#E5D9C1,#D0BA8E);
-	background-image: linear-gradient(to bottom,#E5D9C1,#D0BA8E);
+	background-image: -webkit-linear-gradient(top,#DEDEDE,#9B9B9B);
+	background-image: -moz-linear-gradient(top,#DEDEDE,#9B9B9B);
+	background-image: -o-linear-gradient(top,#DEDEDE,#9B9B9B);
+	background-image: linear-gradient(to bottom,#DEDEDE,#9B9B9B);
 }
 
 #ContentCTA:hover .Btn, #RealEstateCTA:hover .Btn {
-	color: #E5D9C1;
-	background-image: -webkit-linear-gradient(top,#3F3B2F,#302D24);
-	background-image: -moz-linear-gradient(top,#3F3B2F,#302D24);
-	background-image: -o-linear-gradient(top,#3F3B2F,#302D24);
-	background-image: linear-gradient(to bottom,#3F3B2F,#302D24);
+	color: #FFFFFF;
+	background-image: -webkit-linear-gradient(top,#828282,#302D24);
+	background-image: -moz-linear-gradient(top,#828282,#302D24);
+	background-image: -o-linear-gradient(top,#828282,#302D24);
+	background-image: linear-gradient(to bottom,#828282,#302D24);
 }
 
 #ContentCTA, #RealEstateCTA {
@@ -2331,7 +2334,7 @@ html.no-canvas .main {
 
 #ContentCTA a, #RealEstateCTA a {
 	display: block;
-	background-color: #5F5740;
+	background-color: #106cb9;
 	color: #fff;
 	text-decoration: none;
 	padding: 10px 5% 10px;
@@ -2339,9 +2342,18 @@ html.no-canvas .main {
 	background-image: -moz-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
 	background-image: -o-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
 	background-image: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,0.1),rgba(255,255,255,0));
-	border-bottom: solid 9px #464646;
+	border-bottom: solid 9px #0A0A0A;
 }
 
 #ContentCTA a:hover, #RealEstateCTA a:hover {
 	text-decoration: none;
 }
+
+/* Grey font color #4F4F4F */
+/* Light grey color #DEDEDE */
+/* Blue color #106cb9 */
+/* Dark Grey color #828282 */
+/* Blackish border color #0A0A0A */
+/* Light Yellow color #FBEEC0 */
+/* Darker Yellow color #F2CB4F */
+
