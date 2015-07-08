@@ -334,7 +334,7 @@ body.sub #TestimonialZone {
 	font-size: 14px;
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #464646; 
+	color: #4F4F4F; 
 	margin: 0;
 	line-height: 1em;
 	float: left;
@@ -346,8 +346,8 @@ body.sub #TestimonialZone {
 	font-size: 26px;
 	margin: 0;
 	line-height: 1em;
-	border-top: solid 1px #E5D9C1; 
-	border-bottom: solid 1px #E5D9C1; 
+	border-top: solid 1px #4F4F4F; 
+	border-bottom: solid 1px #4F4F4F; 
 	padding: 7px 0;
 	display: inline-block;
 }
