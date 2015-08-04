@@ -180,7 +180,7 @@ body.cms-admin #StickyZone {
 
 #ImageZone {
 	width: 100%;
-	background-image: url(images/cityLandscape.png);
+	background-image: url(/images/cityLandscape.png);
 	background-position: center;
 	border-bottom: 3px solid #0A0A0A; /* $accent1 */
 }
