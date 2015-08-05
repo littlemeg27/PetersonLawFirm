@@ -2,7 +2,7 @@ body {
 	background: #ffffff;
 	margin: 0px;
 	font-family: Roboto, Segoe UI, Helvetica, sans-serif;
-	background-image: url("/images/cityLandscape.png");
+	background-image: url(/images/Bg-Main.jpg);
 }
 
 body em {
@@ -174,15 +174,15 @@ body.cms-admin #StickyZone {
 	position: relative;
 	z-index: 10;
 	background-color: #FBEEC0;   
-	border-top: dotted 1px #0A0A0A; /* #F2CB4F */
-	border-bottom: dotted 1px #0A0A0A; /* $primary */
+	border-top: dotted 1px #0A0A0A; 
+	border-bottom: dotted 1px #0A0A0A; 
 }
 
 #ImageZone {
 	width: 100%;
-	background-image: url("/images/cityLandscape.png");
+	background-image: url('/images/cityLandscape.png');
 	background-position: center;
-	border-bottom: 3px solid #0A0A0A; /* $accent1 */
+	border-bottom: 3px solid #0A0A0A;
 }
 
 body.sub #ImageZone {
